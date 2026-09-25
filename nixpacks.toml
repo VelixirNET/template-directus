@@ -1,0 +1,7 @@
+# Build settings for velixir's builder (Nixpacks).
+#
+# Straight to node rather than `npm run start`: npm and a shell in between do not pass SIGTERM
+# on, so Directus would be killed mid-request on every redeploy instead of shutting down
+# cleanly. start.js forwards the signal to Directus.
+[start]
+cmd = "node start.js"

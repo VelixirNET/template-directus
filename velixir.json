@@ -1,0 +1,14 @@
+{
+  "name": "Directus",
+  "tagline": "A headless CMS on a database you own.",
+  "description": "Directus puts an admin UI and a REST and GraphQL API on top of your own SQL database. Deploying it creates a managed Postgres, installs the schema, and creates the first admin for you (the password is in the deploy log). A thin wrapper around the upstream npm package, so upgrading is a version bump.",
+  "language": "Node",
+  "runtimeVersion": "22",
+  "accent": "#6644FF",
+  "tags": ["Headless CMS", "Managed Postgres", "Admin UI"],
+  "topics": ["directus", "headless-cms"],
+  "minMemoryMb": 512,
+  "services": {
+    "postgres": { "env": "DATABASE_URL" }
+  }
+}

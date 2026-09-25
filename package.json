@@ -1,17 +1,17 @@
 {
   "name": "velixir-directus",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "description": "Directus headless CMS, ready to deploy on velixir.",
   "scripts": {
-    "start": "directus bootstrap && directus start"
+    "start": "node start.js"
   },
   "engines": {
     "node": ">=22"
   },
   "dependencies": {
-    "directus": "^11.1.1",
-    "pg": "^8.12.0"
+    "directus": "12.4.1",
+    "pg": "^8.16.0"
   },
   "license": "MIT"
 }
